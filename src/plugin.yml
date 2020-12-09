@@ -1,6 +1,13 @@
 name: SetHome
-main: us.jin.plugin_tools.SetHome
+main: us.jin.my_utils.Main
 version: 1.0
 author: Jin
-description: Sets spawn point and gives compass to guide
+commands:
+  sethome:
+    aliases: [sh]
+    description: This sets the spawn of a player.
+    usage: /<command> [player]
+    permission: <plugin name>.setHome
+    permission-message: You do not have enough power you fuck
+
 

@@ -1,10 +1,13 @@
-name: CreeperSpawn
+name: SetHome
+main: us.jin.my_utils.Main
 version: 1.0
-author: MEEEEE
-main: us.jin.plugin_tools.Main
-description: Spawns 10 creepeeeeeers
-
+author: Jin
 commands:
-  creepspawn:
-    aliases: [cs]
-    description: /cs to spawns 10 creepeeeeeers
+  sethome:
+    aliases: [sh]
+    description: This sets the spawn of a player.
+    usage: /<command> [player]
+    permission: <plugin name>.setHome
+    permission-message: You do not have enough power you fuck
+
+
