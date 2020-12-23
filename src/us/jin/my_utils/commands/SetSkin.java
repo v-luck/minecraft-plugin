@@ -7,10 +7,10 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import us.jin.my_utils.Main;
 
-public class SetHome implements CommandExecutor {
+public class SetSkin implements CommandExecutor {
     private Main plugin;
 
-    public SetHome(Main plugin) {
+    public SetSkin (Main plugin) {
         this.plugin = plugin;
     }
 
@@ -21,6 +21,9 @@ public class SetHome implements CommandExecutor {
             return true;
         }
         Player player = (Player) playerSender;
+        Location location = player.getLocation();
+        player.setBedSpawnLocation(location);
+        playerSender.sendMessage("Spawnpoint set!");
         return true;
     }
 

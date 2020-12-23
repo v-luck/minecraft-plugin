@@ -1,13 +1,16 @@
-name: SetHome
+name: ComboUtils
 main: us.jin.my_utils.Main
 version: 1.0
 author: Jin
 commands:
   sethome:
-    aliases: [sh]
     description: This sets the spawn of a player.
-    usage: /<command> [player]
-    permission: <plugin name>.setHome
+    usage: /<command>
+    permission: ComboUtils.sethome
     permission-message: You do not have enough power you fuck
+
+permissions:
+  ComboUtils.sethome:
+    default: true
 
 
