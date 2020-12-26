@@ -6,11 +6,11 @@ commands:
   sethome:
     description: This sets the spawn of a player.
     usage: /<command>
-    permission: ComboUtils.sethome
+    permission: ComboUtils.BasicPermission
     permission-message: You do not have enough power you fuck
 
 permissions:
-  ComboUtils.sethome:
+  ComboUtils.BasicPermission:
     default: true
 
 

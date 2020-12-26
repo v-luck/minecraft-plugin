@@ -8,10 +8,6 @@ commands:
     usage: /<command>
     permission: ComboUtils.BasicPermission
     permission-message: You do not have enough power you fuck
-  skin:
-    description: This sets the skin of a player.
-    usage: /<command> [player]
-    permission: ComboUtils.BasicPermission
 
 permissions:
   ComboUtils.BasicPermission:
